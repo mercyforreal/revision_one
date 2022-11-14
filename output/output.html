@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript output</title>
+</head>
+<body>
+    <h2>Output</h2>
+
+    <p>output is define as the ways to display the output of a code and output can be dispay in four way which are:inner html which is used to access an elementand also defined the html content</p>
+<h4>javascript output using DOM (Document object Model)</h4>
+<em>document.getElementById("").innerHTML = </em>
+<p id="answer"></p>
+
+<h2>javascript output using document.write()</h2>
+<button type="button" onclick="document.write(a)">press me</button>
+<p>This is used for testing</p>
+
+
+<h2>javascript output using window. alert ()</h2>
+<p>It display the content using an alert box</p>
+<p id="alert"></p>
+
+<h2>javascript output using console.log()</h2>
+<p>It is used for debugging purposes</p>
+<p id="console"></p>
+
+
+
+
+<script>
+    let x = 3
+    x *= 5
+document.getElementById("answer").innerHTML= x;
+
+//   write
+let a = 4
+a += 6
+document.write(a);
+
+
+// alert
+// window.alert("say hello world");
+
+let k =5
+k += 7
+console.log(k);
+
+</script>
+
+
+
+</body>
+</html>
